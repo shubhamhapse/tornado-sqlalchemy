@@ -1,7 +1,7 @@
 
 db_protocol = 'postgresql://'
 db_user_name = 'school'
-db_pass = 'shapse778'
+db_pass = 'yourpass'
 endpoint = 'localhost'
 db_port = '5432'
 db_name = 'schooldb'
