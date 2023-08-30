@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-sample4
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - name: nginx-sample4
+          image: 'nginx:1.14.2'
+          resources:
+            limits:
+              cpu: 50m
+              memory: 1Gi
+            requests:
+              cpu: 10
+              memory: 250Mi
